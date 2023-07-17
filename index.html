@@ -18,7 +18,7 @@
       var dosbox = new Dosbox({
         id: "dosbox",
         onload: function (dosbox) {
-          dosbox.run("./doom-box.zip", "./DOOM/DOOM.exe");
+          dosbox.run("https://ryderprogramming.github.io/doom/doom-box.zip", "./DOOM/DOOM.exe");
         },
         onrun: function (dosbox, app) {
           console.log("App '" + app + "' is runned");
